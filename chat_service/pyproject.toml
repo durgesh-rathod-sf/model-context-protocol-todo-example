@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chat-service"
+version = "0.1.0"
+description = ""
+authors = ["Durgesh Rathod <durgesh.rathod@sourcefuse.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.3"
+httpx = "^0.28.1"
+python-dotenv = "^1.1.0"
+langchain = "^0.3.25"
+mcp-use = "^1.3.1"
+langchain-azure-ai = "^0.1.3"
+pydantic = "^2.11.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
