@@ -13,6 +13,6 @@ npm install
 npm run dev
 ```
 
-Use the chat service at port 7000
-Use TODO api service at 9001
+Use the chat service at port 7000  
+Use TODO api service at 9001  
 MCP server will be running at 9002
